@@ -1,0 +1,42 @@
+[
+  {
+    "model": "menu.DishMenu",
+    "pk": 1,
+    "fields": {
+      "dish": 1,
+      "menu": 1
+    }
+  },
+  {
+    "model": "menu.DishMenu",
+    "pk": 2,
+    "fields": {
+      "dish": 2,
+      "menu": 1
+    }
+  },
+  {
+    "model": "menu.DishMenu",
+    "pk": 3,
+    "fields": {
+      "dish": 3,
+      "menu": 2
+    }
+  },
+  {
+    "model": "menu.DishMenu",
+    "pk": 4,
+    "fields": {
+      "dish": 4,
+      "menu": 2
+    }
+  },
+  {
+    "model": "menu.DishMenu",
+    "pk": 5,
+    "fields": {
+      "dish": 5,
+      "menu": 3
+    }
+  }
+]

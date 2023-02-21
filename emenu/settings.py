@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'menu',
     'rest_framework',
+    'rest_framework.authtoken',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -56,6 +58,12 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'emenu.urls'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+}
 
 TEMPLATES = [
     {
@@ -87,6 +95,9 @@ DATABASES = {
        'PASSWORD': os.environ.get('DB_PASSWORD'),
        'HOST': 'db',
        'PORT': os.environ.get('DB_PORT'),
+       'TEST': {
+           'NAME': os.environ.get('DB_TEST_NAME')
+       }
    }
 }
 
