@@ -1,0 +1,42 @@
+[
+  {
+    "model": "menu.Menu",
+    "pk": 1,
+    "fields": {
+      "name": "Kuchnia włoska",
+      "description": "Włoskie przysmaki",
+      "added_date": "2023-02-18T13:20:30+01:00",
+      "last_modification": "2023-02-18T13:20:30+01:00"
+    }
+  },
+  {
+    "model": "menu.Menu",
+    "pk": 2,
+    "fields": {
+      "name": "Kuchnia polska",
+      "description": "Polskie przysmaki",
+      "added_date": "2023-02-19T13:20:30+01:00",
+      "last_modification": "2023-02-19T13:20:30+01:00"
+    }
+  },
+  {
+    "model": "menu.Menu",
+    "pk": 3,
+    "fields": {
+      "name": "Kuchnia azjatycka",
+      "description": "Kuchnia azjatycka",
+      "added_date": "2023-02-17T13:20:30+01:00",
+      "last_modification": "2023-02-17T13:20:30+01:00"
+    }
+  },
+  {
+    "model": "menu.Menu",
+    "pk": 4,
+    "fields": {
+      "name": "Kuchnia meksykańska",
+      "description": "Kuchnia meksykańska",
+      "added_date": "2023-02-20T13:20:30+01:00",
+      "last_modification": "2023-02-20T13:20:30+01:00"
+    }
+  }
+]
